@@ -28,6 +28,7 @@
 		BDBA865222419F4E00AFC095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865122419F4E00AFC095 /* Assets.xcassets */; };
 		BDBA865522419F4E00AFC095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865322419F4E00AFC095 /* LaunchScreen.storyboard */; };
 		BDBA865822419F4E00AFC095 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA865722419F4E00AFC095 /* main.m */; };
+		F3496903241D25DF00E10420 /* BillCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C845D52417CF82008FC588 /* BillCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -318,6 +319,7 @@
 				49ED6A45241BAFF400F45E35 /* MiniMaxArrayConverter.m in Sources */,
 				25C845E62417DA54008FC588 /* HighestPalindromeTests.m in Sources */,
 				25C845E72417DA54008FC588 /* MiniMaxSumTests.m in Sources */,
+				F3496903241D25DF00E10420 /* BillCounter.m in Sources */,
 				4948374B24190B5E00A20A95 /* T1Array.m in Sources */,
 				25C845E82417DA54008FC588 /* StringParseTests.m in Sources */,
 				25C845E92417DA54008FC588 /* T1ArrayTests.m in Sources */,
