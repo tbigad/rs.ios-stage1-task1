@@ -29,6 +29,8 @@
 		BDBA865522419F4E00AFC095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBA865322419F4E00AFC095 /* LaunchScreen.storyboard */; };
 		BDBA865822419F4E00AFC095 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA865722419F4E00AFC095 /* main.m */; };
 		F3496903241D25DF00E10420 /* BillCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C845D52417CF82008FC588 /* BillCounter.m */; };
+		F3496904241D3B3800E10420 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C845DB2417CFAD008FC588 /* Parser.m */; };
+		F3496905241E5A1D00E10420 /* PalindromeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C845DF2417CFC9008FC588 /* PalindromeSolver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,7 +325,9 @@
 				4948374B24190B5E00A20A95 /* T1Array.m in Sources */,
 				25C845E82417DA54008FC588 /* StringParseTests.m in Sources */,
 				25C845E92417DA54008FC588 /* T1ArrayTests.m in Sources */,
+				F3496904241D3B3800E10420 /* Parser.m in Sources */,
 				25C845E52417DA4B008FC588 /* BillCounterTests.m in Sources */,
+				F3496905241E5A1D00E10420 /* PalindromeSolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
