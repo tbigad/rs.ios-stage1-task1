@@ -1,14 +1,11 @@
 #import "PalindromeSolver.h"
 
 @interface PalindromeSolver()
-
 - (BOOL) isPolyndrome:(NSString*)string;
-
 @end
 
 @implementation PalindromeSolver
 
-// Complete the highestValuePalindrome function below.
 - (NSString *) highestValuePalindrome:(NSString *)s n:(NSNumber *)n k:(NSNumber *)k {
     int lo = 0;
     int hi = [n intValue] - 1;

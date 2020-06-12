@@ -4,14 +4,13 @@
 
 // Complete the convertFromArray function below.
 - (NSArray<NSNumber*>*)convertFromArray:(NSArray<NSNumber*>*)array {
-    
-    NSArray<NSNumber *> *min = [self sortFromMinToMax:array withLenght:array.count - 1];
-    NSArray<NSNumber *> *max = [self sortFromMaxToMin:array withLenght:array.count - 1];
-    NSNumber* minValue = [self sumOfElements:min];
-    NSNumber* maxValue = [self sumOfElements:max];
-    
-    NSArray<NSNumber*>* ret = [[NSArray alloc]initWithObjects:minValue,maxValue, nil];
-    return ret;
+    int count = (int)array.count - 1ul;
+    NSMutableArray<NSNumber*>* ret = [NSMutableArray new];
+    NSArray<NSNumber *> *min = [self sortFromMinToMax:array withLenght:count];//Сортируем по условию
+    NSArray<NSNumber *> *max = [self sortFromMaxToMin:array withLenght:count];//Сортируем по условию
+    [ret addObject:[self sumOfElements:min]];//Суммируем по условию
+    [ret addObject:[self sumOfElements:max]];//Суммируем по условию
+    return [ret copy];
 }
 
 - (NSArray<NSNumber *> *)sortFromMaxToMin:(NSArray<NSNumber *> *)array withLenght:(int)count {

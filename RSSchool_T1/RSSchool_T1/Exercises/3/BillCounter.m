@@ -8,14 +8,11 @@
 
 @implementation BillCounter
 
-// Complete the following fuction
 - (NSString*)compareResultForBill:(NSArray<NSNumber*>*)bill notIncludingElementWithIndex:(NSInteger)index withGivenSum:(NSNumber*)sum {
-    NSArray<NSNumber *> * billOrder = [self orderForBill:bill];
     NSArray<NSNumber *> * annaOrder = [self orderForAnna:bill notIncludingElementWithIndex:index];
-    NSNumber *annaSum = [self sumOfElements:annaOrder];
-    NSNumber *billSum = [self sumOfElements:billOrder];
+    NSNumber *annaSum = [self sumOfElements:annaOrder];//Считаем анну
     
-    if([sum intValue] == [annaSum intValue]){
+    if([sum intValue] == [annaSum intValue]){ //возвращаем согласно условию
         return @"Bon Appetit";
     } else {
         int diff = [sum intValue] - [annaSum intValue];
